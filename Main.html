@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Clone Task 2 - Flexbox</title>
+
+    <!--For Icons-->
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <input type="checkbox" id="check">
+    <nav>
+        <div class="icon">What's On?</div>
+        <div class="search_box">
+            <input type="search" placeholder="Search...">
+            <span class="fa fa-search"></span>
+        </div>
+
+        <!--Navigation Bar-->
+        <ol>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+        </ol>
+
+        <!--Responsive Nav Bar-->
+        <label for="check" class="bar">
+            <span class="fa fa-bars" id="bars"></span>
+            <span class="fa fa-times" id="times"></span>
+        </label>
+    </nav>
+
+    <!--Main Topic-->
+    <section>
+        <div id="container" class="row">
+            <div class="flex one">
+                    <div class ="flex-img">
+                            <img src="avengers.jpg" class="marvel">
+                                <h2>Avengers-Endgame</h2>
+                        
+                                <h3>After the devastating events of Avengers Infinity War(2018),
+                                        the universe is in ruins. With the help of remaining allies, 
+                                        the Avengers assemble once more in order to reverse Thanos' actions
+                                        and restore balance to the universe.
+                                    </h3>
+                                    <a href="#" id="btn">More Info</a>
+                    </div> 
+            </div>
+    
+    <!--Sub Shows-->
+    <div class=" flex two">  
+        <div class="row">
+            <div class ="flex fill box flex-img flex-img-N">
+                <img src="lone-gunmen.jpg">
+                    <h2>The Lone Gunmen</h2>
+                        <h3>The X-Files' Lone Gunmen, investigate crimes and conspiracies,
+                            often in a silly, comedic and over the top fashion.
+                        </h3>
+                        <a href="#" id="btn">More Info</a>
+            </div> 
+            
+            <div class =" flex fill box flex-img flex-img-N">
+                    <img src="millenium.jpg">
+                        <h2>Millennium Trilogy</h2>
+                            <h3>The adventures of journalist Mikael Blomkvist
+                                and hacker Lisbeth Salander.
+                            </br></br></br>
+                            </h3>
+                            <a href="#" id="btn">More Info</a>
+            </div> 
+        </div> 
+        <div class="row">    
+            <div class = "flex fill box flex-img flex-img-N">
+                <img src="predators.jpg">
+                    <h2>Predators</h2>
+                        <h3>A group of elite warriors parachute into an
+                            unfamiliar jungle and are hunted by members of a 
+                            merciless alien race
+                        </h3>
+                        <a href="#" id="btn">More Info</a>
+            </div> 
+        
+            <div class =" flex fill box flex-img flex-img-N">
+                    <img src="rage.jpg">
+                        <h2>Rage</h2>
+                            <h3>When the daughter of a reformed criminal is kidnapped,
+                                he rounds up his old crew and seeks his own brand of justice.
+                            </h3>
+                            <a href="#" id="btn">More Info</a>
+            </div> 
+        </div>
+    
+    
+    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Copyrights-->
+    <footer>
+        <p>Copyright © 2021 What's On.</p>
+    </footer>
+</body>
+</html>
